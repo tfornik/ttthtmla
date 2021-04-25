@@ -1,0 +1,86 @@
+body {
+	background-image: url(fotki/of1.png);
+}
+
+#test {
+	background-color: red;
+    padding: 15px;
+	margin: 15px;
+	border: 7px solid black;
+	border-radius: 50px;
+	border-style: solid;
+	text-align: center;
+	width: 96%;
+    font-weight: 800;
+}
+
+#div1 {
+	background-color: red;
+	border: 3px dashed black;
+    padding: 7px;
+	margin: 7px;
+	text-align: left;
+	transition: 0.2s;
+	transition-duration: 0.5s;
+	width: 50px;
+}
+
+#div1:hover {
+	background-color: green;
+    border: 3px solid black;
+	color: white;
+}
+
+#ahref {
+	background-color: #ddd;
+	border: none;
+    height: 50px;
+    width: 150px;
+    transition: 0.3s;
+	margin: 4px 2px;
+	padding: 16px 32px;
+    text-align: left;
+    font-size: 16px;
+}	
+
+#ahref:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+#in12 {
+	background-color: grey;
+	color: black;
+	border: 3px dashed black;
+	border-radius: 50px;
+	transition: 0.3s;
+	padding: 2px;
+	margin: 2px;
+	width: 150px;
+	height: 25px;
+}
+
+#in12:hover {
+	background-color: black;
+	color: white;
+	border: 3px solid red;
+}
+
